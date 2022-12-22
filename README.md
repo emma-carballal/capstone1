@@ -1,5 +1,5 @@
-# Captstone 1: Sentiment classification with a transformer model
-## A project for the DataTalksClub ML Zoomcamp
+# Sentiment classification with a transformers model
+## A Captstone 1 project for the DataTalksClub ML Zoomcamp
 The purpose of this project is to fine-tune a pretrained transformer model with a sentiment classification dataset, create a lambda function, containerize it and and deploy it to AWS Lambda.
 
 ### Description
