@@ -5,8 +5,6 @@ The purpose of this project is to fine-tune a pretrained transformer model with 
 ### Description
 The pretrained model selected for finetuning is the [BERT base model (uncased)](https://huggingface.co/bert-base-uncased) from Hugging Face. BERT is a transformers model pretrained on a large corpus of English data in a self-supervised fashion. It was pretrained for masked language modelling and next sentence prediction, but here we'll fine-tune it for a sentiment classification task.
 
-The pretrained model selected for finetuning is the [BERT base model (uncased)](https://huggingface.co/bert-base-uncased) from Hugging Face. BERT is a transformers model pretrained on a large corpus of English data in a self-supervised fashion. It was pretrained for masked language modelling and next sentence prediction, but here we'll fine-tune it for a sentiment classification task.
-
 The dataset selected to fine-tune the pretrained model is GLUE, available in the [Hugging Face Dataset Hub](https://huggingface.co/datasets). GLUE stands for [General Language Understanding Evaluation benchmark](https://gluebenchmark.com/), and is a collection of resources for training, evaluating, and analyzing natural language understanding systems.
 For the task at hand, the subset 'sst2' is used. The Stanford Sentiment Treebank (sst2) consists of sentences from movie reviews and human annotations of their sentiment.
 
